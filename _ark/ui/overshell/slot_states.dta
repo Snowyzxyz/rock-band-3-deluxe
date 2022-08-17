@@ -2749,6 +2749,10 @@
                   {set $ididthisalready FALSE}
                   {set $rb4ui {! $rb4ui}}
                   {overshell update_all})
+               (mod_videobg
+                  {modifier_mgr toggle_modifier_enabled mod_videobg}
+                  {set $videobg {! $videobg}}
+                  {overshell update_all})
                (mod_shinysmashers
                   {modifier_mgr toggle_modifier_enabled mod_shinysmashers}
                   {if {modifier_mgr is_modifier_active mod_starlightsmashers}
